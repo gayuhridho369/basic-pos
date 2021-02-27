@@ -1,0 +1,229 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Foods"
+    },
+    {
+      "id": 2,
+      "name": "Drinks"
+    },
+    {
+      "id": 3,
+      "name": "Snacks"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "code": "K-01",
+      "name": "Sate Ayam",
+      "price": 16000,
+      "is_ready": true,
+      "image": "sate-ayam.jpg",
+      "category": {
+        "id": 1,
+        "name": "Foods"
+      }
+    },
+    {
+      "id": 2,
+      "code": "K-02",
+      "name": "Nasi Goreng Telur",
+      "price": 14000,
+      "is_ready": true,
+      "image": "nasi-goreng-telor.jpg",
+      "category": {
+        "id": 1,
+        "name": "Foods"
+      }
+    },
+    {
+      "id": 3,
+      "code": "K-03",
+      "name": "Nasi Rames",
+      "price": 12000,
+      "is_ready": true,
+      "image": "nasi-rames.jpg",
+      "category": {
+        "id": 1,
+        "name": "Foods"
+      }
+    },
+    {
+      "id": 4,
+      "code": "K-04",
+      "name": "Lontong Opor Ayam",
+      "price": 18000,
+      "is_ready": true,
+      "image": "lontong-opor-ayam.jpg",
+      "category": {
+        "id": 1,
+        "name": "Foods"
+      }
+    },
+    {
+      "id": 5,
+      "code": "K-05",
+      "name": "Mie Goreng",
+      "price": 13000,
+      "is_ready": true,
+      "image": "mie-goreng.jpg",
+      "category": {
+        "id": 1,
+        "name": "Foods"
+      }
+    },
+    {
+      "id": 6,
+      "code": "K-06",
+      "name": "Bakso",
+      "price": 10000,
+      "is_ready": true,
+      "image": "bakso.jpg",
+      "category": {
+        "id": 1,
+        "name": "Foods"
+      }
+    },
+    {
+      "id": 7,
+      "code": "K-07",
+      "name": "Mie Ayam Bakso",
+      "price": 14000,
+      "is_ready": true,
+      "image": "mie-ayam-bakso.jpg",
+      "category": {
+        "id": 1,
+        "name": "Foods"
+      }
+    },
+    {
+      "id": 8,
+      "code": "K-08",
+      "name": "Pangsit 6 pcs",
+      "price": 5000,
+      "is_ready": true,
+      "image": "pangsit.jpg",
+      "category": {
+        "id": 3,
+        "name": "Snacks"
+      }
+    },
+    {
+      "id": 9,
+      "code": "K-09",
+      "name": "Kentang Goreng",
+      "price": 5000,
+      "is_ready": true,
+      "image": "kentang-goreng.jpg",
+      "category": {
+        "id": 3,
+        "name": "Snacks"
+      }
+    },
+    {
+      "id": 10,
+      "code": "K-010",
+      "name": "Cheese Burger",
+      "price": 15000,
+      "is_ready": true,
+      "image": "cheese-burger.jpg",
+      "category": {
+        "id": 3,
+        "name": "Snacks"
+      }
+    },
+    {
+      "id": 11,
+      "code": "K-011",
+      "name": "Coffe Late",
+      "price": 15000,
+      "is_ready": true,
+      "image": "coffe-late.jpg",
+      "category": {
+        "id": 2,
+        "name": "Drinks"
+      }
+    },
+    {
+      "id": 12,
+      "code": "K-012",
+      "name": "Es Jeruk",
+      "price": 7000,
+      "is_ready": true,
+      "image": "es-jeruk.jpg",
+      "category": {
+        "id": 2,
+        "name": "Drinks"
+      }
+    },
+    {
+      "id": 13,
+      "code": "K-013",
+      "name": "Es Teh",
+      "price": 5000,
+      "is_ready": true,
+      "image": "es-teh.jpg",
+      "category": {
+        "id": 2,
+        "name": "Drinks"
+      }
+    },
+    {
+      "id": 14,
+      "code": "K-014",
+      "name": "Teh Hangat",
+      "price": 3000,
+      "is_ready": true,
+      "image": "teh-hangat.jpg",
+      "category": {
+        "id": 2,
+        "name": "Drinks"
+      }
+    }
+  ],
+  "carts": [],
+  "orders": [
+    {
+      "total_price": 88000,
+      "menu": [
+        {
+          "amount": 2,
+          "total_price": 28000,
+          "product": {
+            "id": 2,
+            "code": "K-02",
+            "name": "Nasi Goreng Telur",
+            "price": 14000,
+            "is_ready": true,
+            "image": "nasi-goreng-telor.jpg",
+            "category": {
+              "id": 1,
+              "name": "Foods"
+            }
+          },
+          "id": 2
+        },
+        {
+          "amount": 5,
+          "total_price": 60000,
+          "product": {
+            "id": 3,
+            "code": "K-03",
+            "name": "Nasi Rames",
+            "price": 12000,
+            "is_ready": true,
+            "image": "nasi-rames.jpg",
+            "category": {
+              "id": 1,
+              "name": "Foods"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

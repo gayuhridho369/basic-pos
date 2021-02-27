@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: "Public Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  background-color: #22668a;
+}
+
+.category-actived {
+  background-color: #22668a;
+  color: white;
+}
+
+.btn-info {
+  background-color: #22668a;
+}
+
+.badge {
+  background-color: #22668a;
+}
+
+.total {
+  background-color: white;
+  border-top-left-radius: 5px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-height: 1000px) {
+  .result {
+    height: 400px;
+  }
+
+  .menu {
+    height: 600px;
+  }
+}
